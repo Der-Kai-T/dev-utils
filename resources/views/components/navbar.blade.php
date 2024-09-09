@@ -17,6 +17,10 @@
                 label="Translation from Migration"
             />
 
+            <x-nav-item
+                href="/markdown"
+                label="Markdown"
+            />
 
         </ul>
 

@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/migration_translation', function () {
     return view('app.translation');
 });
+Route::get('/markdown', function () {
+    return view('app.markdown');
+});

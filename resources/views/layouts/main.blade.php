@@ -22,6 +22,12 @@
     <link href="{{ asset("assets/vendor/datatables/datatables.min.css") }}" rel="stylesheet">
     <script src="{{ asset("assets/vendor/datatables/datatables.min.js") }}"></script>
 
+    <!-- marked (markdown parser) -->
+    <script src="{{ asset("assets/vendor/marked/marked.min.js") }}"></script>
+
+    <!-- DOM-purify -->
+    <script src={{ asset("assets/vendor/dom-purify/purify.min.js") }}></script>
+
     <!-- custom styles -->
     @vite("resources/css/custom.css")
 

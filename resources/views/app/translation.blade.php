@@ -13,21 +13,7 @@
                 class="form-control font-monospace"
                 id="input"
                 rows="15"
-            >$table->uuid("id")->primary()->unique();
-$table->string('entry_type')->nullable();
-$table->string('street_key')->nullable();
-$table->string('street');
-$table->string('street_number')->nullable();
-$table->string('quarter_number')->nullable();
-$table->string('quarter');
-$table->string('district');
-$table->string("zip");
-$table->string('landregister_key')->nullable();
-$table->string('court')->nullable();
-$table->string('police_precinct');
-$table->string('car_precinct')->nullable();
-$table->string('investigator_precinct')->nullable();
-$table->string('investigator_note')->nullable();</textarea>
+            ></textarea>
         </div>
 
         <div class="col-6">
