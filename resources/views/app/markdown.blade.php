@@ -4,7 +4,7 @@
 
 @section("content")
 
-    <h2>Create Translation JSON from Migration File (laravel)</h2>
+    <h2>Render Markdown Text</h2>
 
     <div class="row">
         <div class="col-6">
